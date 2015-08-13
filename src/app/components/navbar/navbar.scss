@@ -1,13 +1,21 @@
 $font-stack: "Myriad Pro", "Gill Sans", Helvetica, sans-serif;
 $baseColor1: #c7c9cc;
 $baseColor2: #58595b;
+$navBarHeight: 76px;
 
 .gadget-navbar {
 	font: 100% $font-stack;
 	background-color: $baseColor1;
-	min-height: 76px;
+}
+
+.navbar{
+	border: none;
 }
 
 .gadget-navbar-menu{
 
+}
+
+.navbar-nav > li > a {
+	height: $navBarHeight;
 }
