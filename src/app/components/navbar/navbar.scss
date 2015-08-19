@@ -3,22 +3,6 @@ $baseColor1: #c7c9cc;
 $baseColor2: #58595b;
 $navBarHeight: 76px;
 
-body{
-	font: 100% $font-stack;
-}
-
-/*=============================================
-=            Background Section            =
-=============================================*/
-
-.gadget-background{
-	background-color: #8f9095;
-	background-image: url(../assets/images/GT_Imagen_1600x762.jpg);
-}
-
-/*=====  End of Background Section  ======*/
-
-
 /*==============================
 =            Navbar            =
 ==============================*/
@@ -57,18 +41,3 @@ body{
 
 
 /*=====  End of Navbar  ======*/
-
-/*======================================
-=            Title sections            =
-======================================*/
-
-.gadget-h1{
-	font-size: 5em;
-}
-
-.gadget-h2{
-	font-size: 30px;
-	font-weight: bold;
-}
-
-/*=====  End of Title sections  ======*/
