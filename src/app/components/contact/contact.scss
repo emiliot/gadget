@@ -1,9 +1,14 @@
 /*===============================
 =            Contact            =
 ===============================*/
+$fontStack: "Myriad Pro", "Gill Sans", Helvetica, sans-serif;
+
 
 .gadget-contact{
+	font-family: $fontStack;
 	background-color: #79c843;
+	border-bottom: 4px solid #FFFFFF;
+	border-radius: 10px 10px 10px 10px;
 }
 
 .gadget-contact-title{
@@ -13,12 +18,18 @@
 
 .gadget-email{
 	background-color: #57585b;
-	color: #57585b;
+	color: #FFFFFF;
 	font-size: 18px;
+	font-style: normal;
 	font-weight: bold;
 }
 
 .gadget-telephone{
-	color: #fff;
+	color: #57585b;
+	background-color: #57585b;
+	font-style: normal;
+	font-weight: bold;
+	border-top: 4px solid #FFFFFF;
+	border-radius: 0px 0px 10px 10px;
 }
 /*=====  End of Contact  ======*/
