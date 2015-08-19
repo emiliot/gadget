@@ -22,23 +22,15 @@ body{
 /*==============================
 =            Navbar            =
 ==============================*/
-
-.gadget-navbar {
-	font: 100% $font-stack;
+.gadget-navbar{
+	height: 80px;
 	background-color: $baseColor1;
 }
 
-.navbar{
-	border: none;
-}
-
 .gadget-navbar-menu{
-
+	background-color: $baseColor2;
 }
 
-.navbar-nav > li > a {
-	height: $navBarHeight;
-}
 
 /*=====  End of Navbar  ======*/
 
