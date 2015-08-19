@@ -11,8 +11,13 @@ $navBarHeight: 76px;
 	background-color: $baseColor1;
 }
 
+.navbar-brand{
+	padding: 7px 15px 0px 0px;
+}
+
 .gadget-navbar-menu{
 	background-color: $baseColor2;
+	height: 80px;
 }
 
 .gadget-dropdown-menu{
