@@ -22,8 +22,8 @@ $navBarHeight: 76px;
 	height: 80px;
 }
 
-.gadget-navbar-menu-text{
-	color: #fff;
+.gadget-navbar-menu-text > li > a{
+	color: #fff !important;
 }
 
 .gadget-dropdown-menu-container{
