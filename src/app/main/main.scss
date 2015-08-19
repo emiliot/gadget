@@ -7,6 +7,11 @@ body{
 	font: 100% $font-stack;
 }
 
+.gadget-viewport{
+	padding-left: 0px;
+	padding-right: 0px;	
+}
+
 /*=============================================
 =            Background Section            =
 =============================================*/
@@ -14,6 +19,7 @@ body{
 .gadget-background{
 	background-color: #8f9095;
 	background-image: url(../assets/images/GT_Imagen_1600x762.jpg);
+	margin-top: 80px;
 }
 
 /*=====  End of Background Section  ======*/
