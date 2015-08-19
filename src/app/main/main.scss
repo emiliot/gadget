@@ -7,9 +7,27 @@ body{
 	font: 100% $font-stack;
 }
 
+img{
+	max-width: 100%;
+}
+
 .gadget-full{
 	padding-left: 0px;
-	padding-right: 0px;	
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;	
+}
+
+.gadget-relative{
+	position: relative;
+	margin-top: 80px;
+}
+.gadget-absolute{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
 }
 
 /*=============================================
@@ -17,13 +35,7 @@ body{
 =============================================*/
 
 .gadget-background{
-	background-color: #8f9095;
-	background-image: url(../assets/images/GT_Imagen_1600x762.jpg);
-	margin-top: 80px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-color: #8f9095;
-	background-size: auto 100% ;
+	width: 100%;
 }
 
 /*=====  End of Background Section  ======*/
@@ -33,12 +45,25 @@ body{
 ======================================*/
 
 .gadget-h1{
-	font-size: 5em;
+	font-size: 5vw;
 }
 
 .gadget-h2{
-	font-size: 30px;
+	font-size: 2vw;
 	font-weight: bold;
+}
+
+.gadget-h4{
+	font-size: 1vw;
+}
+
+.gadget-h4-bold{
+	font-size: 1vw;
+	font-weight: bold;
+}
+
+.gadget-content-container{
+	margin-top: 10%;
 }
 
 /*=====  End of Title sections  ======*/
