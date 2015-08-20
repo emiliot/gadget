@@ -6,6 +6,10 @@ $navBarHeight: 76px;
 /*==============================
 =            Navbar            =
 ==============================*/
+.nav > li {
+	float : left;
+}
+
 .gadget-navbar{
 	height: 80px;
 	background-color: $baseColor1;
@@ -27,6 +31,7 @@ $navBarHeight: 76px;
 	color: #fff !important;
 	font-size: 0.7vw;
 	font-style: normal;
+	padding-left: 1.5vw;
 }
 
 .gadget-dropdown-menu-container{
