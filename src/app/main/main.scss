@@ -1,10 +1,12 @@
 $font-stack: "Myriad Pro", "Gill Sans", Helvetica, sans-serif;
 $baseColor1: #c7c9cc;
 $baseColor2: #58595b;
+$baseColor3: #8f9095;
 $navBarHeight: 76px;
 
 body{
 	font: 100% $font-stack;
+	background-color: $baseColor3;
 }
 
 img{
@@ -62,6 +64,7 @@ img{
 
 .gadget-content-container{
 	margin-top: 10%;
+	margin-left: 10%;
 }
 
 /*=====  End of Title sections  ======*/
